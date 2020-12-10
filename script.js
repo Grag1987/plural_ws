@@ -11,7 +11,7 @@ function _load(){
     //console.log(aTextArray[index]);
     
     rootE.insertAdjacentHTML("beforeend", `
-      <div class="fruits">${aTextArray[index]}</div>
+      <div class="fruit">${aTextArray[index]}</div>
     `);
 
   }
